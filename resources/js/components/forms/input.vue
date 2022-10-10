@@ -24,7 +24,6 @@ export default {
     },
     computed: {
         errors() {
-            // console.log(this.$props.validator)
             let errors = Object.values(this.$props.validator.$params).filter(x => !this.$props.validator[x.type])
             errors = errors.map(x => {
                 switch (x.type){

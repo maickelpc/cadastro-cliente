@@ -25,7 +25,6 @@ export const isValidCnpj = helpers.withParams(
 export const isValidCpfCnpj = (param) => helpers.withParams(
     {type: 'cpfCnpjValidator' },
     (data) => {
-        console.log(data, param)
         if(!data)
             return true;
         switch(param){

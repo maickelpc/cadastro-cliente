@@ -244,7 +244,6 @@ export default {
         },
 
         searchCityLocal: function(text, loading){
-            console.log(text, loading);
             if(!this.form.state){
                 Vue.$toast.error(`Para buscar a cidade, selecione o estado`);
                 return
