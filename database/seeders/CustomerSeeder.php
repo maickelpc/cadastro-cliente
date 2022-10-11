@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 use App\Models\Customer;
+use App\Models\City;
 
 use Illuminate\Database\Seeder;
 
@@ -22,7 +23,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1985-10-31',
                 'gender' => 'MALE',
                 'address' => 'Rua das Couves, 12',
-                'city_id' => '3',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
 
             [
@@ -31,7 +32,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '2001-05-19',
                 'gender' => 'FEMALE',
                 'address' => 'R. Ouro Verde, 1294 - AP 12',
-                'city_id' => '120',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
 
             [
@@ -40,7 +41,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '2000-11-05',
                 'gender' => 'MALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '290',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
 
             [
@@ -49,7 +50,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '2000-11-05',
                 'gender' => 'MALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '350',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
 
             [
@@ -58,7 +59,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1968-11-05',
                 'gender' => 'FEMALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '420',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
 
             [
@@ -67,7 +68,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1980-19-01',
                 'gender' => 'MALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '690',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
 
             [
@@ -76,7 +77,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1965-11-05',
                 'gender' => 'FEMALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '700',
+                'city_id' => City::orderByRaw('RAND()')->first()->id,
             ],
            
 
@@ -88,3 +89,6 @@ class CustomerSeeder extends Seeder
         
     }
 }
+
+
+3,120,290,350,420,690,700
