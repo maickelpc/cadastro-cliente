@@ -89,6 +89,3 @@ class CustomerSeeder extends Seeder
         
     }
 }
-
-
-3,120,290,350,420,690,700
