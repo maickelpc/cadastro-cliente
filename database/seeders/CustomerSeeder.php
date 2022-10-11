@@ -31,7 +31,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '2001-05-19',
                 'gender' => 'FEMALE',
                 'address' => 'R. Ouro Verde, 1294 - AP 12',
-                'city_id' => '600',
+                'city_id' => '120',
             ],
 
             [
@@ -40,7 +40,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '2000-11-05',
                 'gender' => 'MALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '30',
+                'city_id' => '290',
             ],
 
             [
@@ -49,7 +49,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '2000-11-05',
                 'gender' => 'MALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '2547',
+                'city_id' => '350',
             ],
 
             [
@@ -58,7 +58,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1968-11-05',
                 'gender' => 'FEMALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '3580',
+                'city_id' => '420',
             ],
 
             [
@@ -67,7 +67,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1980-19-01',
                 'gender' => 'MALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '4184',
+                'city_id' => '690',
             ],
 
             [
@@ -76,7 +76,7 @@ class CustomerSeeder extends Seeder
                 'birth_date' => '1965-11-05',
                 'gender' => 'FEMALE',
                 'address' => 'Avenida Brasil, 900 - Casa dos Fundos',
-                'city_id' => '2687',
+                'city_id' => '700',
             ],
            
 
